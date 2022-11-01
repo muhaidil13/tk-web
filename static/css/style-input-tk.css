@@ -1,0 +1,47 @@
+.hero-forms{
+    position: relative;
+    width: 100vw;
+    height: 1000px;
+    background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80"), linear-gradient(rgb(75, 72, 72), rgb(212, 206, 206));
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+.hero-input h1{
+    margin-top: 100px;
+}
+.hero-input input{
+    margin-top:4px;
+    width: 400px;
+    margin-bottom: 7px;
+    display: block;
+    
+}
+select{
+    display: block;
+    margin-bottom:10px;
+}
+input[type="file"]{
+    border: none;
+}
+
+input{
+    padding: 4px 15px;
+    border-radius: 4px;
+}
+label{
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.simpan{
+    padding: 10px 14px;
+    color: white;
+    border-radius: 9px;
+    background: red;
+}
