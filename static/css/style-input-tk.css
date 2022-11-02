@@ -13,6 +13,9 @@
     background-size: cover;
 }
 .hero-input h1{
+    color: white;
+    margin-bottom: 1rem;
+
     margin-top: 100px;
 }
 .hero-input input{
@@ -44,4 +47,5 @@ label{
     color: white;
     border-radius: 9px;
     background: red;
+    margin-bottom: 1rem;
 }
