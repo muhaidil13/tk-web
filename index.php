@@ -1,9 +1,9 @@
 <?php include "template/navbar.php";?>
     <section class="hero">
         <div class="title">
-            <h1 >Lagi Cari Tk Untuk Anak Kesayangan Anda ?</h1>
+            <h1>Lagi Cari Tk Untuk Anak Kesayangan Anda ?</h1>
         </div>
-            <button id="cari">Cari Tk Anda</button>
+            <button id="cari"><a href="http://localhost/latihanphp/daftar-page.php">Cari Tk Anda</a></button>
     </section>
     <section class="list-tk">
         <h1 class="title-tk">Daftar list Tk</h1>

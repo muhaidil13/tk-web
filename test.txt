@@ -1,0 +1,23 @@
+// Handling user input string / int
+$ntk = $_POST["nama_tk"];
+$nama = $_POST["nama"];
+$ttl = $_POST["ttl"];
+$email = $_POST["email"];
+$jk = $_POST["jenis_kelamin"];
+$agama = $_POST["agama"];
+$ank_ke = $_POST["anak_ke"];
+$sdr = $_POST["sdr"];
+$wn = $_POST["wn"];
+$n_ayah = $_POST["nama_ayah"];
+$t_ayah = $_POST["ttl_ayah"];
+$agm_ayah = $_POST["agama_ayah"];
+$wn_ayah = $_POST["wn_ayah"];
+$pkr_ayah = $_POST["pekerjaan_ayah"];
+$pdk_ayah = $_POST["pendidikan_ayah"];
+$n_ibu = $_POST["nama_ibu"];
+$t_ibu = $_POST["ttl_ibu"];
+$agm_ibu = $_POST["agama_ibu"];
+$wn_ibu = $_POST["wn_ibu"];
+$pkr_ibu = $_POST["pekerjaan_ibu"];
+$pdk_ibu = $_POST["pendidikan_ibu"];
+$fotoName = $_FILES["foto"]["name"];

@@ -19,9 +19,10 @@
             <a href="index.php">Home</a>
             <?php if (isset($_SESSION["id"]) == 1):?>
                 <a href="tk-page.php">Data TK</a>
+                <a href="list-calon.php">List Calon</a>
             <?php endif;?>
-            <a href="">Daftar Tk</a>
-            <a href="">Kelulusan</a>
+            <a href="daftar-page.php">Daftar</a>
+            <a href="">Daftar Kelulusan</a>
             <a href="login.php">Login</a>
             </div>
 

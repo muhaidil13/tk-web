@@ -63,3 +63,34 @@ label{
     background: red;
     margin-bottom: 1rem;
 }
+
+section.daftar-tk-page{
+    position: relative;
+    width: 100vw;
+    background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80"), linear-gradient(rgb(75, 72, 72), rgb(212, 206, 206));
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+.daftar-tk-page .hero-input label{
+    display: block;
+}
+.form-lulus{
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80"), linear-gradient(rgb(75, 72, 72), rgb(212, 206, 206));
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-size: cover;
+}
