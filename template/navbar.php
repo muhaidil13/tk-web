@@ -1,4 +1,4 @@
-
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +17,12 @@
         </div>
         <div class="list">
             <a href="index.php">Home</a>
-            <a href="tk-page.php">Data TK</a>
+            <?php if (isset($_SESSION["id"]) == 1):?>
+                <a href="tk-page.php">Data TK</a>
+            <?php endif;?>
             <a href="">Daftar Tk</a>
             <a href="">Kelulusan</a>
-            <a href="">Login</a>
-        </div>
+            <a href="login.php">Login</a>
+            </div>
+
     </section>

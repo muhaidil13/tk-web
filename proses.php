@@ -1,6 +1,7 @@
 <?php 
 
 include "koneksi.php";
+
 if (isset($_POST["simpan"])){
     // Handling Multipart-from data files
     // Nama files
@@ -39,4 +40,28 @@ if (isset($_POST["simpan"])){
     else{
         echo "Gagal Upload files";
     }
+
+}
+
+if(isset($_POST['kirim'])){
+    session_start();
+    $user = $_POST["user"];
+    $pass = $_POST["pass"];
+    $pas =md5($pass);
+
+    $stmt = "select * from admin where username = '$user' and password_ = '$pas'";
+    $cek = mysqli_query($con, $stmt);
+
+    if(mysqli_num_rows($cek) > 0){
+        $d = mysqli_fetch_assoc($cek);
+        $_SESSION['status_login'] = true;
+        $_SESSION['a_global'] = $d;
+        $_SESSION['id'] = $d["admin_id"];
+        // var_dump($_SESSION);
+        header('Location: http://localhost/latihanphp/index.php');  
+    }
+ 
+    // }else{
+    //     echo '<script>alert("Username atau Password Anda salah!")</script>';
+    // }
 }
