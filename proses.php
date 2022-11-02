@@ -29,10 +29,11 @@ if (isset($_POST["simpan"])){
 
     // store tmp name jika user upload files
     $imageTemp = $_FILES["gambar"]["tmp_name"];
+    mysqli_close($con);
 
     if (is_uploaded_file($imageTemp)){
         if(move_uploaded_file($imageTemp, $imageLocations . $imageName)){
-            echo "berhasil uploaded files";
+            header("Location: http://localhost/latihanphp/index.php");
         }
     }
     else{

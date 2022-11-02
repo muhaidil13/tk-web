@@ -1,4 +1,4 @@
-<!-- <?php $url="http://localhost:80/latihanphp/static/"?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
