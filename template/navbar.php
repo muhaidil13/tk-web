@@ -22,7 +22,7 @@
                 <a href="list-calon.php">List Calon</a>
             <?php endif;?>
             <a href="daftar-page.php">Daftar</a>
-            <a href="">Daftar Kelulusan</a>
+            <a href="list-kelulusan.php">Daftar Kelulusan</a>
             <a href="login.php">Login</a>
             </div>
 

@@ -1,14 +1,13 @@
 <?php include "template/navbar.php";?>
 <?php 
 include "koneksi.php";
-$stmt = "select * from calon where islulus=0";
+$stmt = "select * from calon";
 $result = mysqli_query($con,$stmt);
 
 ?>
 <section class="form-lulus">
     <div class="hero-input">
-        <h1>Kelulusan Calon Belum Di ACC</h1>
-        <h3 style="margin:2rem 0;"><a style="color: white; " href="list-all-calon.php">Lihat Daftar Seluruh Calon</a></h3>
+        <h1>Daftar Seluruh Calon Peserta Tk </h1>
         <table border="1" cellspacing="0" cellpadding="10" width="1000px" style="color:white; text-align:center;">
         <thead>
             <th>No. </th>

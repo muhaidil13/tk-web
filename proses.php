@@ -156,7 +156,17 @@ if(isset($_POST["kirim_peserta"])){
 }
 
 $getid= $_GET["id"];
-$stmt = "select * from calon where id = '$getid'";
-$result = mysqli_query($con, $stmt);
-$row = mysqli_fetch_assoc($result);
-var_dump($row);
+if ($_GET["method"] === "edit"){
+
+}
+if ($_GET["method"] === "hapus"){
+    $stmt = "delete from calon where id = '$getid'";
+    $result = mysqli_query($con, $stmt);
+    header('Location: http://localhost/latihanphp/list-calon.php');  
+}
+if ($_GET["method"] === "lulus"){
+    $stmt = "update calon set islulus = 1 where id = '$getid'";
+    $result = mysqli_query($con, $stmt);
+    header('Location: http://localhost/latihanphp/list-calon.php'); 
+}
+
